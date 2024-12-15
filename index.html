@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSSD Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SSSD Dashboard</h1>
+        <div class="dashboard">
+            <div class="card">
+                <h2>Current Power Generation Rate (kW)</h2>
+                <p id="powerRate">Loading...</p>
+            </div>
+            <div class="card">
+                <h2>Motor RPM</h2>
+                <p id="motorRPM">Loading...</p>
+            </div>
+            <div class="card">
+                <h2>Current Angle of Inclination (°)</h2>
+                <p id="inclinationAngle">Loading...</p>
+            </div>
+            <div class="card">
+                <h2>Average Rate of Inclination (°/s)</h2>
+                <p id="avgInclinationRate">Loading...</p>
+            </div>
+            <div class="card">
+                <h2>Approximate Extra Power Generated (kW)</h2>
+                <p id="extraPower">Loading...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
