@@ -1,5 +1,5 @@
 # SSSD-device
-this website will provide you the basic ideas about how our  webiste will look like .
+this website will provide you the basic ideas about how our  webiste will look like (it is just for the deom purpose ,real time data will be updated from sensors).
 all the data such as  the  rpm at which the motor is rotating .
 current angle of inclination 
 the avg rate of inclination.
